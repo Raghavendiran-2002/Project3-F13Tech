@@ -1,0 +1,26 @@
+/* DBErrorComponent.css */
+
+.error-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .error-table table {
+    border: 1px solid #ddd;
+  }
+  
+  .error-table th, .error-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .error-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+
+#edit {
+    text-decoration: none;
+}
