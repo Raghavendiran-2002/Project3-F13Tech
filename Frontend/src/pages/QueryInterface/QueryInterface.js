@@ -70,12 +70,12 @@ const QueryInterface = () => {
       if (selectedOption === "timestamp") {
         response = await axios({
           method: "get",
-          url: `http://localhost:5051/query-interface?filter=${selectedOption}&start=${startDate}&end=${endDate}&user=${user}`,
+          url: `https://f13api.raghavendiran.tech/query-interface?filter=${selectedOption}&start=${startDate}&end=${endDate}&user=${user}`,
         });
       } else {
         response = await axios({
           method: "get",
-          url: `http://localhost:5051/query-interface?search=${searchTerm}&filter=${selectedOption}&user=${user}`,
+          url: `https://f13api.raghavendiran.tech/query-interface?search=${searchTerm}&filter=${selectedOption}&user=${user}`,
         });
       }
       setData(response.data.logs);
